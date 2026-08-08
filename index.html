@@ -18,6 +18,7 @@
         <span>SiteAgent</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
         <a href="#previews">Previews</a>
         <a href="#capabilities">Capabilities</a>
         <a href="#download">Download</a>
@@ -105,6 +106,43 @@
         </figure>
       </section>
 
+      <section class="workflow-section" id="how-it-works">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2>From idea to verified deploy.</h2>
+          </div>
+          <p class="section-note">SiteAgent keeps the agent loop visible: your repository, proposed edits, preview, approval, and deployment status stay in one workspace.</p>
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-step glass-card">
+            <span class="step-index">01</span>
+            <h3>Connect a repo</h3>
+            <p>Sign in with GitHub or use a token, then choose the repository, branch, technology, and hosting setup.</p>
+          </article>
+          <article class="workflow-step glass-card">
+            <span class="step-index">02</span>
+            <h3>Choose an assistant</h3>
+            <p>Use a connected cloud provider, OpenCode Go, or a compatible on-device model. Credentials stay in Keychain.</p>
+          </article>
+          <article class="workflow-step glass-card">
+            <span class="step-index">03</span>
+            <h3>Describe the change</h3>
+            <p>Ask in plain language. The agent can inspect files and use tools; write actions become staged changes.</p>
+          </article>
+          <article class="workflow-step glass-card">
+            <span class="step-index">04</span>
+            <h3>Preview and approve</h3>
+            <p>Review the diff and local site preview before approving anything that reaches your branch.</p>
+          </article>
+          <article class="workflow-step glass-card">
+            <span class="step-index">05</span>
+            <h3>Commit and verify</h3>
+            <p>Commit when ready, let the host rebuild, and inspect deployment status or logs from the workspace.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="split-section" id="capabilities">
         <div class="section-heading compact">
           <div>
@@ -126,6 +164,33 @@
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section class="compatibility-section" id="compatibility">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Compatibility</p>
+            <h2>What this build supports.</h2>
+          </div>
+          <p class="section-note">The downloadable artifact is the iPhone/iPad arm64 sideload build. Website Commander is a separate native macOS app.</p>
+        </div>
+        <div class="table-card glass-card">
+          <table class="compatibility-table">
+            <thead>
+              <tr><th>Area</th><th>Compatible with</th><th>Requirement</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Devices</td><td>iPhone and iPad</td><td><span class="table-status">iOS/iPadOS 17.0+</span></td></tr>
+              <tr><td>IPA architecture</td><td>Physical arm64 iOS devices</td><td><span class="table-status">Sideload / re-sign</span></td></tr>
+              <tr><td>Repositories</td><td>Public or private GitHub repositories</td><td><span class="table-status">GitHub access</span></td></tr>
+              <tr><td>Cloud AI</td><td>OpenAI, Anthropic, Gemini, DeepSeek, Grok, Mistral, OpenRouter, OpenCode Go, Qwen Code, Kimi Code, LongCat, GitHub Copilot, and custom OpenAI-compatible endpoints</td><td><span class="table-status">Bring your key or sign-in</span></td></tr>
+              <tr><td>On-device AI</td><td>Qwen3, Qwen3.5, and Bonsai MLX model families on supported hardware</td><td><span class="table-status">Memory / storage dependent</span></td></tr>
+              <tr><td>Deployment</td><td>Cloudflare Pages, Cloudflare Workers, Vercel, Netlify, Render, Railway, AWS Amplify, GitHub Pages, and SSH/SFTP</td><td><span class="table-status">Token or hook varies</span></td></tr>
+              <tr><td>macOS</td><td>Website Commander, the separate macOS website manager</td><td><span class="table-status">Not this IPA</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="compatibility-note">Cloud models use the account or API key you configure. OpenCode Go requires an OpenCode Go credential; an OpenAI platform key will not authenticate to that service. The sideload IPA is ad-hoc packaged, so your sideload tool may need to re-sign it for your device.</p>
       </section>
 
       <section class="download-section" id="download">
