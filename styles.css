@@ -165,7 +165,6 @@ tr:last-child td { border-bottom: 0; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-panel { min-height: 360px; padding: 20px; border-radius: 23px; }
   .panel-title { margin-top: 70px; font-size: 43px; }
-  .mini-grid { right: 20px; bottom: 20px; left: 20px; }
   .preview-card, .preview-large, .preview-settings { grid-column: 1 / -1; }
   .preview-large { grid-row: auto; }
   .preview-card figcaption { grid-template-columns: 27px auto 1fr; }
