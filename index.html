@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080a0d" />
+    <meta name="description" content="SiteAgent is a glassy iOS command center for managing websites with AI, GitHub, and deployment workflows." />
+    <title>SiteAgent — website command center</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="topbar shell">
+      <a class="brand" href="#top" aria-label="SiteAgent home">
+        <span class="brand-mark">✦</span>
+        <span>SiteAgent</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#previews">Previews</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#download">Download</a>
+        <a href="https://mesut.uk/app/">mesut.uk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top" class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">iOS sideload build <span>•</span> 1.16</p>
+          <h1>A calmer command center for your websites.</h1>
+          <p class="lede">
+            Connect a site, talk to your agent, review changes, and keep deployments in reach — all inside a quiet, glassy iOS workspace.
+          </p>
+          <div class="pills" aria-label="Build details">
+            <span>Dark mode</span>
+            <span>Colorless</span>
+            <span>Clear Glass</span>
+            <span>arm64</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/Mesutcydev/SiteAgentPage/releases/download/v1.16-sideload/SiteAgent.ipa">Download IPA <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#previews">See the app <span aria-hidden="true">↘</span></a>
+          </div>
+          <p class="microcopy">Built for sideloading · paywall-free build · memory entitlements retained</p>
+        </div>
+
+        <div class="hero-panel glass-card" aria-label="SiteAgent overview">
+          <div class="panel-topline">
+            <span class="status-dot"></span>
+            <span>COMMAND CENTER</span>
+            <span class="panel-time">READY</span>
+          </div>
+          <div class="panel-title">Your sites,<br /><span>within reach.</span></div>
+          <div class="mini-grid">
+            <div class="mini-stat">
+              <span class="mini-label">Connected sites</span>
+              <strong>01</strong>
+              <span class="mini-foot">up to date</span>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-label">AI provider</span>
+              <strong>Ready</strong>
+              <span class="mini-foot">tools enabled</span>
+            </div>
+            <div class="mini-stat wide">
+              <span class="mini-label">Deployment</span>
+              <strong>Cloudflare Workers</strong>
+              <span class="mini-foot">automatic deploy workflow</span>
+            </div>
+          </div>
+          <div class="panel-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+      </section>
+
+      <section class="section-heading" id="previews">
+        <div>
+          <p class="eyebrow">Current simulator captures</p>
+          <h2>The app in its dark, colorless glass skin.</h2>
+        </div>
+        <p class="section-note">Captured from the booted iOS simulator after the Deployment fix. Sensitive repository and billing identifiers are blurred; the site name and domain remain readable.</p>
+      </section>
+
+      <section class="preview-grid" aria-label="SiteAgent iOS app previews">
+        <figure class="preview-card preview-large glass-card">
+          <div class="shot-wrap"><img src="previews/home.png" alt="SiteAgent Home command center in dark Colorless Clear Glass mode" loading="lazy" /></div>
+          <figcaption><span>01</span><strong>Command Center</strong><em>home dashboard</em></figcaption>
+        </figure>
+        <figure class="preview-card glass-card">
+          <div class="shot-wrap"><img src="previews/deployment.png" alt="SiteAgent Deployment settings in dark Colorless Clear Glass mode" loading="lazy" /></div>
+          <figcaption><span>02</span><strong>Deployment</strong><em>connected workflow</em></figcaption>
+        </figure>
+        <figure class="preview-card glass-card">
+          <div class="shot-wrap"><img src="previews/chat.png" alt="SiteAgent Chat screen in dark Colorless Clear Glass mode" loading="lazy" /></div>
+          <figcaption><span>03</span><strong>Agent Chat</strong><em>starter workflows</em></figcaption>
+        </figure>
+        <figure class="preview-card glass-card">
+          <div class="shot-wrap"><img src="previews/sites.png" alt="SiteAgent Sites Manager in dark Colorless Clear Glass mode" loading="lazy" /></div>
+          <figcaption><span>04</span><strong>Sites Manager</strong><em>repository health</em></figcaption>
+        </figure>
+        <figure class="preview-card preview-settings glass-card">
+          <div class="shot-wrap"><img src="previews/settings.png" alt="SiteAgent Appearance settings showing Colorless, Dark, and Clear Glass selected" loading="lazy" /></div>
+          <figcaption><span>05</span><strong>Appearance</strong><em>colorless · dark · clear glass</em></figcaption>
+        </figure>
+      </section>
+
+      <section class="split-section" id="capabilities">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">One workspace</p>
+            <h2>Everything important, easy to scan.</h2>
+          </div>
+        </div>
+        <div class="table-card glass-card">
+          <table>
+            <thead>
+              <tr><th>Surface</th><th>What it brings together</th><th>Signal</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Command Center</td><td>Site status, sessions, recommendations, and deployment history</td><td><span class="table-status">Ready</span></td></tr>
+              <tr><td>Agent Chat</td><td>Goal-oriented starter tasks with tool-capable model routing</td><td><span class="table-status">AI Ready</span></td></tr>
+              <tr><td>Deployment</td><td>Hosting setup, deploy hooks, verification, and advanced controls</td><td><span class="table-status">Connected</span></td></tr>
+              <tr><td>Sites Manager</td><td>Repository health, live URL, preview, secrets, and domain entry points</td><td><span class="table-status">Up to date</span></td></tr>
+              <tr><td>Appearance</td><td>Colorless accent, Dark theme, and Clear Glass surface style</td><td><span class="table-status">Selected</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <div class="download-copy">
+          <p class="eyebrow">Latest sideload release</p>
+          <h2>A build you can carry with you.</h2>
+          <p>Release 1.16 includes the Deployment crash hardening, the neutral glass contrast pass, the paywall-free sideload marker, and the retained on-device memory entitlements.</p>
+          <div class="download-meta">
+            <span><b>Version</b> 1.16</span>
+            <span><b>Build</b> 2026080901</span>
+            <span><b>Format</b> IPA · arm64</span>
+          </div>
+        </div>
+        <div class="download-card glass-card">
+          <div class="download-icon">↓</div>
+          <div>
+            <strong>SiteAgent.ipa</strong>
+            <span>GitHub Release asset · v1.16-sideload</span>
+          </div>
+          <a class="button button-primary" href="https://github.com/Mesutcydev/SiteAgentPage/releases/download/v1.16-sideload/SiteAgent.ipa">Download</a>
+          <code>SHA-256: 3ce3e6b0697bc9df6f45634a2aa21bdd574597c6c5d15c2e04c75fd550720fd4</code>
+        </div>
+      </section>
+
+      <section class="note-row">
+        <span class="note-mark">✦</span>
+        <p><strong>Release note.</strong> The Deployment sheet is now presented through a concrete settings wrapper and delayed scroll work is cancelled when the sheet disappears, removing the sideload-only crash path we found. Dynamic deployment URLs now fail gracefully instead of force-unwrapping.</p>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <span>SiteAgent · iOS command center</span>
+      <span><a href="https://mesut.uk/app/">mesut.uk app page</a> · <a href="https://github.com/Mesutcydev/SiteAgentPage">GitHub</a></span>
+    </footer>
+  </body>
+</html>
