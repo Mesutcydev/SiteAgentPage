@@ -63,11 +63,12 @@ nav { display: flex; gap: 24px; color: var(--muted); font-size: 13px; }
 nav a, .footer a { transition: color .2s ease; }
 nav a:hover, .footer a:hover { color: var(--text); }
 
-.hero { display: grid; grid-template-columns: minmax(0, 1.06fr) minmax(380px, .94fr); gap: 76px; align-items: center; padding: 108px 0 126px; }
+.hero { display: grid; grid-template-columns: minmax(0, 1.06fr) minmax(380px, .94fr); gap: 76px; align-items: center; min-width: 0; padding: 108px 0 126px; }
+.hero-copy { min-width: 0; }
 .eyebrow { margin: 0 0 20px; color: var(--neutral-deep); font: 600 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .18em; text-transform: uppercase; }
 .eyebrow span { color: var(--neutral); margin-inline: 5px; }
 h1, h2, p { margin-top: 0; }
-h1 { max-width: 680px; margin-bottom: 24px; font-size: clamp(48px, 7vw, 86px); line-height: .98; letter-spacing: -.07em; }
+h1 { max-width: 100%; margin-bottom: 24px; font-size: clamp(48px, 7vw, 86px); line-height: .98; letter-spacing: -.07em; }
 h2 { margin-bottom: 12px; font-size: clamp(30px, 4vw, 48px); line-height: 1.03; letter-spacing: -.055em; }
 .lede { max-width: 570px; margin-bottom: 25px; color: var(--muted); font-size: 18px; line-height: 1.6; }
 .pills, .download-meta { display: flex; flex-wrap: wrap; gap: 8px; }
