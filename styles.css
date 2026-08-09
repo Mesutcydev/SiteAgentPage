@@ -85,7 +85,7 @@ h2 { margin-bottom: 12px; font-size: clamp(30px, 4vw, 48px); line-height: 1.03; 
 .panel-topline { display: flex; align-items: center; gap: 8px; color: var(--dim); font: 600 10px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .15em; }
 .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--neutral); box-shadow: 0 0 18px rgba(217,222,230,.7); }
 .panel-time { margin-left: auto; color: var(--neutral-deep); }
-.panel-title { position: relative; z-index: 1; max-width: 14ch; margin: clamp(42px, 7vw, 78px) 0 28px; font-size: 56px; line-height: .98; letter-spacing: -.065em; }
+.panel-title { position: relative; z-index: 1; max-width: 14ch; min-height: 2.05em; margin: clamp(42px, 7vw, 78px) 0 36px; font-size: 56px; line-height: .98; letter-spacing: -.065em; }
 .panel-title span { color: var(--muted); }
 .mini-grid { position: relative; z-index: 2; right: auto; bottom: auto; left: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; margin-top: 0; }
 .mini-stat { min-height: 98px; padding: 15px; border: 1px solid var(--line); border-radius: 16px; background: rgba(0,0,0,.14); }
@@ -179,7 +179,7 @@ tr:last-child td { border-bottom: 0; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   nav a:nth-child(4) { display: none; }
   .hero-panel { min-height: 0; padding: 20px; border-radius: 23px; }
-  .panel-title { max-width: 14ch; margin: 36px 0 24px; font-size: 43px; }
+  .panel-title { max-width: 14ch; min-height: 2.05em; margin: 36px 0 32px; font-size: 43px; }
   .workflow-section { padding: 100px 0 20px; }
   .workflow-grid { grid-template-columns: 1fr; }
   .workflow-step { min-height: 0; }
