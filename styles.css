@@ -146,6 +146,9 @@ tr:last-child td { border-bottom: 0; }
 .download-card strong, .download-card span { display: block; }
 .download-card strong { font-size: 15px; }
 .download-card span { margin-top: 4px; color: var(--dim); font-size: 11px; }
+.download-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 12px; }
+.text-link { color: var(--neutral); font-size: 11px; white-space: nowrap; }
+.text-link:hover { color: var(--text); }
 .download-card code { grid-column: 2 / -1; overflow: auto; color: var(--neutral-deep); font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; }
 
 .note-row { display: flex; gap: 14px; align-items: flex-start; max-width: 820px; margin: 0 0 110px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 17px; background: rgba(255,255,255,.035); color: var(--muted); font-size: 13px; }
@@ -192,7 +195,7 @@ tr:last-child td { border-bottom: 0; }
   th, td { padding: 14px 11px; font-size: 11px; }
   td:first-child { white-space: normal; }
   .download-card { grid-template-columns: 42px 1fr; }
-  .download-card .button { grid-column: 1 / -1; }
+  .download-actions { grid-column: 1 / -1; justify-content: flex-start; }
   .download-card code { grid-column: 1 / -1; }
   .footer { display: block; }
   .footer span:last-child { display: block; margin-top: 8px; }
