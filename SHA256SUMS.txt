@@ -1,1 +1,1 @@
-b0fe4ac8cf041373e109801227d5d54f48243844bef202ff30f80f5bdc4bf897  SiteAgent-2.0-build-1.ipa
+2326920633709646cf8c0d9add865d69257a6edb1ff645f250eb1d911ab084dc  SiteAgent-2.0-build-1-navigation-fix.ipa
