@@ -1,1 +1,1 @@
-3e4af74d255f7d8a2335336a995a6608a5c12c1a2edaef1e43b2abe65eda716e  WebsiteCommander-2.0-build-4.ipa
+fbb3a282f17d8538ac876afb6601c97585d6e1049d8b9be05f99131c0aa9bd47  WebsiteCommander-2.0-build-5.ipa
